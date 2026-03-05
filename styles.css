@@ -7,6 +7,7 @@ body {
   margin: 0;
   color: #1a1a1aa8;
   background: url('Pics/Background_bw.jpg');
+  font-size: 1.05rem;
 }
 
 header {
@@ -101,7 +102,7 @@ nav a {
   border-radius: 25px;
   border-color: 2px solid #0B2E5B;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: 0.9rem;
+  font-size: 1rem;
   position: relative;
 }
 
@@ -155,7 +156,7 @@ main {
 
 .section h1 {
   color: #0B2E5B;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -167,7 +168,7 @@ main {
 
 .section h2 {
   color: #0B2E5B;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -190,7 +191,7 @@ main {
 .section p {
   margin: 1rem 0;
   color: #333;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.8;
 }
 
@@ -275,7 +276,7 @@ footer div {
 
 .event-date {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #C41E3A;
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
@@ -284,7 +285,7 @@ footer div {
 
 .event-content p {
   margin: 0.75rem 0;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: #333;
 }
@@ -372,11 +373,11 @@ footer div {
 /* Responsive Design */
 @media (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   body {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   main {
@@ -391,18 +392,18 @@ footer div {
   }
 
   .section h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
   .section h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     padding-left: 0.75rem;
   }
 
   .section p {
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.7;
     margin: 0.75rem 0;
   }
@@ -417,12 +418,12 @@ footer div {
   }
 
   .event-date {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     margin-bottom: 0.75rem;
   }
 
   .event-content p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin: 0.5rem 0;
   }
 
@@ -451,7 +452,7 @@ footer div {
 
   nav a {
     padding: 0.5rem 0.9rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .footer-logo {
@@ -475,7 +476,7 @@ footer div {
 /* Extra small devices (iPhone sizes) */
 @media (max-width: 480px) {
   html {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   main {
@@ -489,17 +490,17 @@ footer div {
   }
 
   .section h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 0.75rem;
   }
 
   .section h2 {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     margin-bottom: 0.75rem;
   }
 
   .section p {
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.6;
     margin: 0.5rem 0;
   }
@@ -513,12 +514,12 @@ footer div {
   }
 
   .event-date {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
   }
 
   .event-content p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     margin: 0.4rem 0;
   }
 
@@ -547,7 +548,7 @@ footer div {
 
   nav a {
     padding: 0.4rem 0.8rem;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 
   .cta-button {
