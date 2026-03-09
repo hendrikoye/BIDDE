@@ -383,6 +383,32 @@ footer div {
   transform: translateY(-1px);
 }
 
+.hidden {
+  display: none !important;
+}
+
+.show-more-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.show-more-btn {
+  padding: 0.8rem 2rem;
+  background: white;
+  color: #0B2E5B;
+  border: 2px solid #0B2E5B;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.show-more-btn:hover {
+  background: #0B2E5B;
+  color: white;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   html {

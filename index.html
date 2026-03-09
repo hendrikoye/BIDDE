@@ -247,7 +247,7 @@
           </div>
         </div>
 
-        <div class="event-card">
+        <div class="event-card older-event hidden">
           <div class="event-date">July 2025</div>
           <div class="event-content">
             <div class="event-section">
@@ -258,7 +258,7 @@
           </div>
         </div>
 
-        <div class="event-card">
+        <div class="event-card older-event hidden">
           <div class="event-date">April 2025</div>
           <div class="event-content">
             <div class="event-section">
@@ -277,7 +277,7 @@
           </div>
         </div>
 
-        <div class="event-card">
+        <div class="event-card older-event hidden">
           <div class="event-date">February 2025</div>
           <div class="event-content">
             <div class="event-section">
@@ -292,6 +292,10 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="show-more-btn-container">
+        <button id="show-more-past-events" class="show-more-btn">Show More</button>
       </div>
     </section>
 
@@ -308,6 +312,27 @@
     </div>
     <div>© B-IDDE – Berlin Infectious Disease Dynamics Expertise Network</div>
   </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const showMoreBtn = document.getElementById("show-more-past-events");
+      const olderEvents = document.querySelectorAll(".older-event");
+
+      if (showMoreBtn) {
+        showMoreBtn.addEventListener("click", function () {
+          const isHidden = olderEvents[0].classList.contains("hidden");
+
+          if (isHidden) {
+            olderEvents.forEach(event => event.classList.remove("hidden"));
+            showMoreBtn.innerText = "Show Less";
+          } else {
+            olderEvents.forEach(event => event.classList.add("hidden"));
+            showMoreBtn.innerText = "Show More";
+          }
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
